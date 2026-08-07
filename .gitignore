@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+.vscode/
+EOF
+pointer
