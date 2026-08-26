@@ -8,3 +8,4 @@ cat > .gitignore << 'EOF'
 .vscode/
 EOF
 pointer
+app
