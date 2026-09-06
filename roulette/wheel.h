@@ -25,7 +25,10 @@ typedef struct Wheel {
   Pole * actionPole;
 } Wheel;
 
+void print_number_from_pole(Pole * pole);
+void print_color_from_pole(Pole * pole);
 void assemble_wheel(Wheel *wheel);
-void wheel_print(Wheel *wheel);
+void wheel_print(Wheel * wheel);
+Pole wheel_rotation(Wheel * wheel);
 
 #endif

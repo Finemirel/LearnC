@@ -14,6 +14,10 @@ int main(void) {
   assemble_wheel(&wheel);
   wheel_print(&wheel);
   
+  Pole pole = wheel_rotation(&wheel);
+  print_number_from_pole(&pole);
+  print_color_from_pole(&pole);
+  
   return 0;
 }
 
